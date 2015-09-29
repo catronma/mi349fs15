@@ -21,10 +21,11 @@ h2 {
 	background-color:#964703;
 }
 
-.class.article {
-	background-color: #AF580C;
+.article {
+	background-color: #D3D3D3;
 	font_size: 16px;
-	color: #ffffff;
+	padding: 7px;
+	color: #AF580C;
 	border-color: #964703;
 	border-style: solid;
 	border-width: 5px;

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+  width: 900px;
+  background: #ccc;
+  margin: 1.5em auto;
+  font-family: veranda, 'trebuchet ms', arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  clear: both;
+}
+
+img {
+  border-color: #964703;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 100px;
+}
+
+ul {
+  width: 33%;
+  display: inline-block;
+  float: left;
+  padding: 0;
+}
+
+.pitch {
+  background: #964703;
+  color: #ffffff;
+  border-color: #964703;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*
+Pseudo classes
+LoVHAte (:link, :visited, :hover, :active)
+:first-child
+:last-child
+:nth-child(an+b/even/odd/n)
+*/
+a:link, a:visited {
+	color: #424242;
+	text-decoration: none;
+}
+
+a:hover {
+	background: yellow;
+	font-size: 1.4em;
+  text-decoration: underline;
+}
+
+
+/* Inline, Inline-Block and Block */
+ul li {
+	display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.comps {
+  width: 100%
+  display: block;
+  clear: both;
+}
+/* Float example */

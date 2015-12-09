@@ -28,7 +28,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-	.column {
+	.content1 {
 		width: 100%;
 		background: red;
 
@@ -36,15 +36,8 @@ body {
 }
 
 @media (min-width: 800px) and (max-width: 1199px) {
-	.column {
+	.content1 {
 			width: 100%;
 			background: green;
-	}
-}
-
-@media (min-width: 400px) and (max-width: 799px) {
-	.column {
-				width: 100%;
-				float: none;
 	}
 }

@@ -185,3 +185,16 @@ a:active {
 	color:#CCCCCC;
 	text-decoration: underline;
 }
+
+@media (min-width: 600px) {
+	.content1 {
+		float: right;
+		width: 100%;
+
+	}
+
+	.content2 {
+		float: right;
+		width: 100%;
+ }
+}
